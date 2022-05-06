@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+}
+
+div.movie-card {
+  width: 200px;
+  background-color: rgb(245, 238, 238);
+  padding: 0.5rem;
+  margin: 1rem;
+}
+
+div.movie-card img.movie-img {
+  width: 100%;
+}
+
+div.movie-card p.movie-description {
+  text-align: justify;
+}
+
+div.movie-card span.movie-year,
+div.movie-card span.movie-genres {
+  font-weight: bold;
+}
